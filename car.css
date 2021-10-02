@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    background-color: black;
+   
+}
+.navbar ul{
+    overflow: hidden;
+
+}
+.navbar ul li{
+list-style: none;
+float: right;
+padding: 20px 15px;
+margin-left: 50px;
+}
+
+.navbar ul li a
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:30px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: white;
+    transform: 0.2s;
+
+}
+
+.navbar ul li a:hover{
+    background-color: pink;
+    cursor: pointer;
+    color: black;
+}
+header {
+    background-image:url(lex.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.name{
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    font-size: 100px;
+}
+.lex{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    float: left ;
+    color: white;
+    font-size: 30px;
+}
+.slogan{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+}
+.book-now{
+    margin-left: 560px;
+    margin-top: 30px;
+}
+.book-now a{
+    border: 1px solid white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 80px;
+    text-decoration: none;
+    margin-right: 10px;
+color: white;
+transition: 0.2s;
+}
+.book-now a:hover{
+    background-color:pink;
+    border: 1px solid pink;
+    color: #000;
+}
