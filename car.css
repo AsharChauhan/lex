@@ -44,7 +44,7 @@ header {
 
 .name{
     text-align: center;
-    padding-top: 200px;
+    padding-top: 40px;
     color: white;
     font-size: 100px;
 }
@@ -56,22 +56,23 @@ header {
     color: white;
     font-size: 30px;
 }
+
 .slogan{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     color: white;
     font-size: 20px;
 }
 .book-now{
-    margin-left: 560px;
-    margin-top: 30px;
+    margin-left: 520px;
+    margin-top: 220px;
 }
 .book-now a{
     border: 1px solid white;
     padding: 15px 25px 15px 25px;
     border-radius: 80px;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 10px;
 color: white;
 transition: 0.2s;
 }
